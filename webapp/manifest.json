@@ -81,6 +81,11 @@
 				"name": "RouteMain",
 				"pattern": "RouteMain",
 				"target": ["TargetMain"]
+			},
+			{
+				"name": "RouteSub",
+				"pattern": "RouteSub",
+				"target": ["TargetSub"]
 			}],
 			"targets": {
 				"TargetMain": {
@@ -88,6 +93,12 @@
 					"transition": "slide",
 					"clearControlAggregation": false,
 					"viewName": "Main"
+				},
+				"TargetSub": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Sub"
 				}
 			}
 		}
