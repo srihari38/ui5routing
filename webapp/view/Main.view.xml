@@ -3,7 +3,13 @@
 	<App id="idAppControl">
 		<pages>
 			<Page title="{i18n>title}">
-				<content></content>
+				<content>
+					<Button text="Main" press=".onSub" enabled="False"/>
+						<Button
+					text="gotoSub"
+					icon="sap-icon://hello-world"
+					iconFirst="False"
+					press=".onMain"/></content>
 			</Page>
 		</pages>
 	</App>

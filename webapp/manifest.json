@@ -78,12 +78,12 @@
 				"clearControlAggregation": false
 			},
 			"routes": [{
-				"name": "RouteMain",
+				"name": "Main",
 				"pattern": "RouteMain",
 				"target": ["TargetMain"]
 			},
 			{
-				"name": "RouteSub",
+				"name": "Sub",
 				"pattern": "RouteSub",
 				"target": ["TargetSub"]
 			}],
